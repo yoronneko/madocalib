@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------------------
 * rtklib.h : RTKLIB constants, types and function prototypes
 *
-*          Copyright (C) 2023-2025 Cabinet Office, Japan, All rights reserved.
-*          Copyright (C) 2024-2025 Lighthouse Technology & Consulting Co. Ltd., All rights reserved.
+*          Copyright (C) 2023-2026 Cabinet Office, Japan, All rights reserved.
+*          Copyright (C) 2024-2026 Lighthouse Technology & Consulting Co. Ltd., All rights reserved.
 *          Copyright (C) 2007-2020 by T.TAKASU, All rights reserved.
 *
 * options : -DENAGLO   enable GLONASS
@@ -36,6 +36,7 @@
 *           2024/07/23 1.16 VER_MADOCALIB 1.3
 *           2024/09/27 1.17 VER_MADOCALIB 1.4
 *           2025/01/06 1.18 VER_MADOCALIB 2.0
+*           2026/02/26 1.19 VER_MADOCALIB 2.1
 *-----------------------------------------------------------------------------*/
 #ifndef RTKLIB_H
 #define RTKLIB_H
@@ -67,7 +68,7 @@ extern "C" {
 /* constants -----------------------------------------------------------------*/
 
 #define VER_RTKLIB  "2.4.3"             /* library version */
-#define VER_MADOCALIB "2.0"
+#define VER_MADOCALIB "2.1"
 
 #define PATCH_LEVEL "b34"               /* patch level */
 

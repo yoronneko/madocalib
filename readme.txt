@@ -12,12 +12,13 @@ MADOCA-PPP is Multi-GNSS Advanced Orbit and Clock Augmentation - Precise Point P
 
 The library is derived from RTKLIB (version 2.4.3 b34, Ref. Note1) and functions of PPP-AR and message conversion copyrighted by the third party.
 
+This package also includes an optional GUI application (MADOCALIB_GUI) implemented in Python. The GUI acts only as a frontend and does not alter the MADOCALIB processing logic.
 
 # USAGE
-Go to the folder of "sample_data". Double-click and excute the batch file of 
+Go to the folder of "sample_data". Double-click and execute the batch file of 
 "exec_ppp.bat" on your Windows PC.
 Please refere to the MADOCALIB manual for usage of MADOCALIB in detail.
-
+The distribution also provides an optional graphical user interface, which may be started from the bin folder in the same manner.
 
 # LICENSE
 
@@ -25,8 +26,8 @@ The MADOCALIB is distributed under the following BSD 2-clause license (http://op
 Users are permitted to develop, produce or sell their own non-commercial or commercial 
 products utilizing, linking or including MADOCALIB as long as they comply with the license.
 
-   Copyright (C) 2023-2025 Cabinet Office, Japan, All rights reserved.
-   Copyright (C) 2024-2025 Lighthouse Technology & Consulting Co. Ltd., All rights reserved.
+   Copyright (C) 2023-2026 Cabinet Office, Japan, All rights reserved.
+   Copyright (C) 2024-2026 Lighthouse Technology & Consulting Co. Ltd., All rights reserved.
    Copyright (C) 2023-2024 Japan Aerospace Exploration Agency. All Rights Reserved.
    Copyright (C) 2023-2024 TOSHIBA ELECTRONIC TECHNOLOGIES CORPORATION. All Rights Reserved.
    Copyright (c) 2007-2020, T. Takasu, All rights reserved.
@@ -56,6 +57,12 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+
+# ADDITIONAL LICENSE INFORMATION (GUI component)
+The license information for the MADOCALIB_GUI(madocalib_gui.exe) is provided in "MADOCALIB_GUI_LICENSE.txt".
+Please refer to that file for the full text of all licenses included in the PyInstaller packaged GUI application.
+The GUI also includes an application icon based on the QZSS logo.
+For information regarding the ownership and usage guidelines of the QZSS logo, please refer to: https://qzss.go.jp/overview/download/logo.html
 
 #UPDATE HISTORY
 * 2023/03/31 1.0b - The first public version as beta version
@@ -87,6 +94,9 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                       Support triple/quad-frequency PPP and PPP-AR.
                       Support multiple input files of qzssl6e_file for multiple PRN input.
                       Added the makefiles for Linux.
+
+* 2026/02/19 2.1  - The 7th public version.
+                      Added the MADOCALIB_GUI.
 
 
 #NOTES
